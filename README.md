@@ -94,10 +94,10 @@ git clone https://github.com/vansh-builds/bughunterx.git
 cd bughunterx
 
 # Step 3 — Give execute permission
-chmod +x bughunt2.sh
+chmod +x bughunterx.sh
 
 # Step 4 — Install all tools (only needed once)
-./bughunt2.sh
+./bughunterx.sh
 # When menu appears → type 6 → press Enter
 # This installs 40+ Go tools, Python tools, wordlists, nuclei templates
 # Takes 10-20 minutes on first run
@@ -114,17 +114,17 @@ git clone https://github.com/vansh-builds/bughunterx.git
 cd bughunterx
 
 # Step 3 — Give execute permission
-chmod +x bughunt2.sh
+chmod +x bughunterx.sh
 
 # Step 4 — Install all tools
-./bughunt2.sh
+./bughunterx.sh
 # When menu appears → type 6 → press Enter
 ```
 
 ### One-liner (Kali)
 
 ```bash
-sudo apt update && sudo apt install -y git golang-go python3 python3-pip curl wget jq nmap whois && git clone https://github.com/vansh-builds/bughunterx.git && cd bughunterx && chmod +x bughunt2.sh && ./bughunt2.sh
+sudo apt update && sudo apt install -y git golang-go python3 python3-pip curl wget jq nmap whois && git clone https://github.com/vansh-builds/bughunterx.git && cd bughunterx && chmod +x bughunterx.sh && ./bughunterx.sh
 ```
 
 ---
@@ -133,7 +133,7 @@ sudo apt update && sudo apt install -y git golang-go python3 python3-pip curl wg
 
 ```bash
 cd bughunterx
-./bughunt2.sh
+./bughunterx.sh
 ```
 
 You will see this menu:
@@ -151,7 +151,7 @@ You will see this menu:
 ### Example — Full Scan
 
 ```
-./bughunt2.sh
+./bughunterx.sh
 
 Type I_HAVE_PERMISSION to confirm authorization: I_HAVE_PERMISSION
 
@@ -162,7 +162,7 @@ Target domain: example.com
 
 ### Adding API Keys (optional but recommended)
 
-Open `bughunt2.sh` and fill in your API keys at the top for better results:
+Open `bughunterx.sh` and fill in your API keys at the top for better results:
 
 ```bash
 SECURITYTRAILS_API="your_key_here"
